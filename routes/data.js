@@ -1,5 +1,5 @@
 const router = require("express").Router();
-let Datum = require("../models/datum.model");
+const Datum = require("../models/datum.model");
 
 //api access to data
 router.route("/").get((request, res) => {
