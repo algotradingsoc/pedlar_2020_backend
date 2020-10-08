@@ -8,6 +8,7 @@ router.route("/").get((request, res) => {
     .catch((error) => res.status(400).json("Error: " + error));
 });
 
+//api post endpoint
 router.route("/add").post((request, res) => {
   const eem = request.body.eem;
   const gld = request.body.gld;
